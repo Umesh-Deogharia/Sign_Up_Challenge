@@ -1,0 +1,46 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+
+.main {
+    /* height: 100%; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* border: 1px solid black; */
+    height: 200px;
+    padding: 20px;
+    width: 400px;
+    background-color: white;
+    box-shadow: 1px 1px 8px 0px black;
+}
+
+#error1,
+#error2 {
+    color: red;
+}
+
+
+#success {
+    color: #219F35;
+}
+
+input {
+    width: 90%;
+    height: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+button {
+    width: 120px;
+    height: 30px;
+}
